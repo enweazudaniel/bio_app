@@ -42,14 +42,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
-  // This widget is the home page of your application. It is stateful, meaning
-  // how it looks.
-
-  // Thi  // that it has a State object (defined below) that contains fields that affects class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
   final String title;
 
   @override
@@ -112,15 +104,21 @@ class _MyHomePageState extends State<MyHomePage> {
                                   fit: BoxFit.fill,
                                   image: new AssetImage(
                                       "assets/IMG_20210121_123149.jpg")))),
-                      Center(
-                        child: new Text('Enweazu Daniel',
-                            style: GoogleFonts.pacifico()),
-                      ),
-                      Center(
-                        child: new Text(
-                            "   Andriod. Flutter. Football.  \n    Music. Likes Travelling. ",
-                            style: TextStyle(fontSize: 25),
-                            textScaleFactor: 1.2),
+                      Container(
+                        padding: const EdgeInsets.all(16.0),
+                        child: new Column(
+                          children: <Widget>[
+                            new Text(
+                              'Enweazu Daniel',
+                              style: GoogleFonts.pacifico(),
+                            ),
+                            new Text(
+                                "Andriod. Flutter. Football.  \nMusic. Likes Travelling. ",
+                                style: TextStyle(fontSize: 25),
+                                textScaleFactor: 1.2,
+                                textAlign: TextAlign.center),
+                          ],
+                        ),
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
