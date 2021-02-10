@@ -30,15 +30,15 @@ class _HomeState extends State<Home> {
         currentIndex: _currentIndex,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            title: Text('Home'),
+            icon: Icon(Icons.person),
+            title: Text('Me'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.apps),
             title: Text('Apps'),
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.person), title: Text('Profile'))
+              icon: Icon(Icons.comment), title: Text('Comment'))
         ],
       ),
     );
