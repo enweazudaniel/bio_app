@@ -56,14 +56,12 @@ class PlaceholderWidget2 extends StatelessWidget {
           IconButton(
             icon: FaIcon(FontAwesomeIcons.youtube),
             color: Colors.red,
-            onPressed: () => launch('https://www.facebook.com/enweazu.daniel'),
+            onPressed: () => launch(
+                'https://github.com/SongTube/SongTube-App/releases/download/5.6.0%2B8/songtube-release.5.6.0+8.apk'),
             iconSize: 40.0,
           ),
           Text('Songtube'),
         ],
-      ),
-      Row(
-        children: [Image.asset('assets/IMG_20210121_123149.jpg')],
       ),
     ]);
   }
