@@ -1,16 +1,18 @@
 # bio_app
 
-biography application.
+A brief biography application.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+\
+Screenshot 1
 
-A few resources to get you started if this is your first Flutter project:
+<img src = "images/device-2021-02-13-230736.png" width = 270 height = 480/>
+\
+Screenshot 2
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<img src = "images/device-2021-02-13-230856.png" width = 270 height = 480/>
+\
+Screenshot 3
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src = "images/device-2021-02-13-230911.png" width = 270 height = 480/>
